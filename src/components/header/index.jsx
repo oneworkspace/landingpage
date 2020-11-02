@@ -29,9 +29,8 @@ const Header = ({ siteTitle, headerDescription }) => {
         <div className="w-3/5">
           <div className="relative">
             <img
-              className="absolute top-0 left-0"
+              className="absolute top-0 left-0 object-contain"
               style={{ width: "826px", height: "410px" }}
-              className="object-contain "
               src={Laptop}
               alt="Laptop"
             />
