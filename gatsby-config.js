@@ -22,6 +22,28 @@ module.exports = {
     getstartedDescription_p3: `If you have any queries/suggestions, you can always send us an email at support@oneworkspace.app`,
     getstartedCTAText: `Take me to OneWorkspace`,
 
+    socialLinks: {
+      facebook: "http://www.facebook.com",
+      twitter: "https://twitter.com/oneworkspace",
+      instagram: "https://instagram.com/oneworkspace",
+      linkedin: "http://www.linkedin.com",
+    },
+
+    recentBlog: [
+      {
+        title: "UX Design",
+        link: "#",
+        description:
+          "Lorem ipsum is simply dumy texts is widely used in the design.",
+      },
+      {
+        title: "UX Design",
+        link: "#",
+        description:
+          "Lorem ipsum is simply dumy texts is widely used in the design.",
+      },
+    ],
+
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@oneworkspace`,
   },

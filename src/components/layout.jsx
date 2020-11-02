@@ -13,6 +13,7 @@ import Header from "./header/index"
 import IntegrationsSection from "./integrations/index"
 import WorkspaceFor from "./workspacefor/index"
 import GetStarted from "./getstarted/index"
+import Footer from "./footer/index"
 
 import "./layout.css"
 
@@ -36,6 +37,18 @@ const Layout = ({ children }) => {
           getstartedDescription_p2
           getstartedDescription_p3
           getstartedCTAText
+
+          socialLinks {
+            facebook
+            twitter
+            instagram
+            linkedin
+          }
+
+          recentBlog {
+            title
+            description
+          }
         }
       }
     }
@@ -64,6 +77,10 @@ const Layout = ({ children }) => {
         description_p2={data.site.siteMetadata?.getstartedDescription_p2}
         description_p3={data.site.siteMetadata?.getstartedDescription_p3}
         ctaText={data.site.siteMetadata?.getstartedCTAText}
+      />
+      <Footer
+        recentBlog={data.site.siteMetadata?.recentBlog}
+        socialLinks={data.site.siteMetadata?.socialLinks}
       />
     </div>
   )
