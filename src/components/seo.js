@@ -50,7 +50,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: `https://oneworkspace.app/`,
         },
         {
           name: `twitter:card`,

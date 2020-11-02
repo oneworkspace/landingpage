@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `OneWorkspace`,
     owLogoUrl: `https://stage-admin-oneworkspace.netlify.app/oneworkspace.png`,
-    headerDescription: `Call it an end-to-end management utility, or a tailored CRM, OW makes your life easier in everyway possible`,
+    headerDescription: `Call it an end-to-end management utility, or a tailored CRM, OW makes your life easier in everyway possible!`,
     primaryCTAText: `SIGNUP FOR ALPHA`,
     alphaUserOffer: `and get OneWorkspace free, for 3 yrs`,
 

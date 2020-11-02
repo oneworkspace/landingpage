@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import IntegrationsSection from "./integrations"
+import WorkspaceFor from "./workspacefor"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,22 +23,26 @@ const Layout = ({ children }) => {
           headerDescription
           owLogoUrl
           integrationSectionImageUrl
+          whoisonewforHeader
         }
       }
     }
   `)
 
   return (
-    <div className="w-11/12 mx-auto bg-white">
+    <div className="layout w-full bg-white">
       {children}
-      <Header
-        siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
-        headerDescription={data.site.siteMetadata?.headerDescription}
-        owLogoUrl={data.site.siteMetadata?.owLogoUrl}
-      />
+      <div className="w-11/12 mx-auto">
+        <Header
+          siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
+          headerDescription={data.site.siteMetadata?.headerDescription}
+          owLogoUrl={data.site.siteMetadata?.owLogoUrl}
+        />
+      </div>
       <IntegrationsSection
         assetUrl={data.site.siteMetadata?.integrationSectionImageUrl}
       />
+      <WorkspaceFor sectionTitle={data.site.siteMetadata?.whoisonewforHeader} />
     </div>
   )
 }
