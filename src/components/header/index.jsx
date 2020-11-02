@@ -5,7 +5,9 @@ import Logo from "../../images/logo.png"
 import Laptop from "../../images/laptop.png"
 import DashboardDesign from "../../images/dashboard-design.png"
 
-const Header = ({ siteTitle, headerDescription, owLogoUrl }) => {
+import "./styles.css"
+
+const Header = ({ siteTitle, headerDescription }) => {
   return (
     <header className="text-white px-12 h-screen pt-32 mb-24">
       <img
@@ -25,16 +27,16 @@ const Header = ({ siteTitle, headerDescription, owLogoUrl }) => {
           </div>
         </div>
         <div className="w-3/5">
-          <div class="relative">
+          <div className="relative">
             <img
-              class="absolute top-0 left-0"
+              className="absolute top-0 left-0"
               style={{ width: "826px", height: "410px" }}
               className="object-contain "
               src={Laptop}
               alt="Laptop"
             />
             <img
-              class="cursor-pointer absolute top-0 left-0 rounded-md"
+              className="cursor-pointer absolute top-0 left-0 rounded-md"
               style={{
                 width: "510px",
                 height: "318px",
@@ -53,10 +55,12 @@ const Header = ({ siteTitle, headerDescription, owLogoUrl }) => {
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  headerDescription: PropTypes.string,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  headerDescription: ``,
 }
 
 export default Header

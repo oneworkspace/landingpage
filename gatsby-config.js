@@ -6,11 +6,21 @@ module.exports = {
     primaryCTAText: `SIGNUP FOR ALPHA`,
     alphaUserOffer: `and get OneWorkspace free, for 3 yrs`,
 
-    integrationSectionImageUrl: `https://stage-admin-oneworkspace.netlify.app/oneworkspace.png`,
+    integrationsTitle: `Use all your favourite apps on the same platform!`,
+    integrationsDescription_p1: `Porta etiam dolor sit amet, consectetur adipiscing elit.`,
+    integrationsDescription_p2: `Consequat eu congue morbi sem augue amet. Id imperdiet diam quis tempor rhoncus, ipsum placerat aliquam massa. Luctus porttitor massa amet nunc, sollicitudin. Erat amet faucibus adipiscing ut sed massa convallis vitae.`,
+    integrationsDescription_p3: `Eu sit placerat nunc adipiscing. Laoreet amet commodo nunc, morbi urna ornare. Leo laoreet dignissim massa elementum nullam sem pellentesque feugiat in. Lectus dolor pharetra tortor viverra netus eget mi in in.`,
+    integrationsDescription_p4: `Quis consequat velit a vestibulum. Porta etiam odio sit at. At adipiscing posuere rhoncus non vivamus lobortis sed.`,
 
     whoisonewforHeader: `WHO IS OneWorkspace for?`,
     engineerCaricature: `http://`,
     designerCaricature: `http://`,
+
+    getstartedTitle: `LET’S GET STARTED!`,
+    getstartedDescription_p1: `We let you test our complete suite of features for free! Refer others to increase the duration of your free trial :)`,
+    getstartedDescription_p2: `All data/documents are stored using bank-like security measures and are completely safe. We do not gather any unnecessary information from users.`,
+    getstartedDescription_p3: `If you have any queries/suggestions, you can always send us an email at support@oneworkspace.app`,
+    getstartedCTAText: `Take me to OneWorkspace`,
 
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@oneworkspace`,

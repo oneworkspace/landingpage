@@ -3,29 +3,23 @@ import React from "react"
 
 import IntegrationsImage from "../../images/integrations.png"
 
-const IntegrationsSection = ({ assetUrl }) => (
+import "./styles.css"
+
+const IntegrationsSection = ({
+  sectionTitle,
+  description_p1,
+  description_p2,
+  description_p3,
+  description_p4,
+}) => (
   <div className="text-black w-9/12 flex mx-auto space-x-32">
     <div className="w-1/3 text-left">
-      <h3 className="text-3xl mt-4 mb-2">
-        Use all your favourite apps on the same platform!
-      </h3>
-      <div class="space-y-4 text-sm text-gray-500">
-        <p>Porta etiam dolor sit amet, consectetur adipiscing elit.</p>
-        <p>
-          Consequat eu congue morbi sem augue amet. Id imperdiet diam quis
-          tempor rhoncus, ipsum placerat aliquam massa. Luctus porttitor massa
-          amet nunc, sollicitudin. Erat amet faucibus adipiscing ut sed massa
-          convallis vitae.
-        </p>
-        <p>
-          Eu sit placerat nunc adipiscing. Laoreet amet commodo nunc, morbi urna
-          ornare. Leo laoreet dignissim massa elementum nullam sem pellentesque
-          feugiat in. Lectus dolor pharetra tortor viverra netus eget mi in in.
-        </p>
-        <p>
-          Quis consequat velit a vestibulum. Porta etiam odio sit at. At
-          adipiscing posuere rhoncus non vivamus lobortis sed.
-        </p>
+      <h3 className="text-primary text-3xl mt-4 mb-2">{sectionTitle}</h3>
+      <div className="space-y-4 text-sm text-gray-500">
+        <p>{description_p1}</p>
+        <p>{description_p2}</p>
+        <p>{description_p3}</p>
+        <p>{description_p4}</p>
         <div>
           <a className="text-primary text-sm" href="/">
             Learn more about us
@@ -44,11 +38,19 @@ const IntegrationsSection = ({ assetUrl }) => (
 )
 
 IntegrationsSection.propTypes = {
-  assetUrl: PropTypes.string,
+  sectionTitle: PropTypes.string,
+  description_p1: PropTypes.string,
+  description_p2: PropTypes.string,
+  description_p3: PropTypes.string,
+  description_p4: PropTypes.string,
 }
 
 IntegrationsSection.defaultProps = {
-  assetUrl: ``,
+  sectionTitle: ``,
+  description_p1: ``,
+  description_p2: ``,
+  description_p3: ``,
+  description_p4: ``,
 }
 
 export default IntegrationsSection

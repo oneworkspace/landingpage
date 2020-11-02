@@ -12,6 +12,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header/index"
 import IntegrationsSection from "./integrations/index"
 import WorkspaceFor from "./workspacefor/index"
+import GetStarted from "./getstarted/index"
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -21,9 +23,19 @@ const Layout = ({ children }) => {
         siteMetadata {
           title
           headerDescription
-          owLogoUrl
-          integrationSectionImageUrl
           whoisonewforHeader
+
+          integrationsTitle
+          integrationsDescription_p1
+          integrationsDescription_p2
+          integrationsDescription_p3
+          integrationsDescription_p4
+
+          getstartedTitle
+          getstartedDescription_p1
+          getstartedDescription_p2
+          getstartedDescription_p3
+          getstartedCTAText
         }
       }
     }
@@ -36,13 +48,23 @@ const Layout = ({ children }) => {
         <Header
           siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
           headerDescription={data.site.siteMetadata?.headerDescription}
-          owLogoUrl={data.site.siteMetadata?.owLogoUrl}
         />
       </div>
       <IntegrationsSection
-        assetUrl={data.site.siteMetadata?.integrationSectionImageUrl}
+        sectionTitle={data.site.siteMetadata?.integrationsTitle}
+        description_p1={data.site.siteMetadata?.integrationsDescription_p1}
+        description_p2={data.site.siteMetadata?.integrationsDescription_p2}
+        description_p3={data.site.siteMetadata?.integrationsDescription_p3}
+        description_p4={data.site.siteMetadata?.integrationsDescription_p4}
       />
       <WorkspaceFor sectionTitle={data.site.siteMetadata?.whoisonewforHeader} />
+      <GetStarted
+        sectionTitle={data.site.siteMetadata?.getstartedTitle}
+        description_p1={data.site.siteMetadata?.getstartedDescription_p1}
+        description_p2={data.site.siteMetadata?.getstartedDescription_p2}
+        description_p3={data.site.siteMetadata?.getstartedDescription_p3}
+        ctaText={data.site.siteMetadata?.getstartedCTAText}
+      />
     </div>
   )
 }
