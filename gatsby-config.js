@@ -23,10 +23,10 @@ module.exports = {
     getstartedCTAText: `Take me to OneWorkspace`,
 
     socialLinks: {
-      facebook: "http://www.facebook.com",
+      facebook: "https://www.facebook.com/oneworkspace",
       twitter: "https://twitter.com/oneworkspace",
       instagram: "https://instagram.com/oneworkspace",
-      linkedin: "http://www.linkedin.com",
+      linkedin: "https://www.linkedin.com/oneworkspace",
     },
 
     recentBlog: [
