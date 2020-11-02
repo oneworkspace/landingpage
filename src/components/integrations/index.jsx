@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import IntegrationsImage from "../images/group-26@3x.png"
+import IntegrationsImage from "../../images/integrations.png"
 
 const IntegrationsSection = ({ assetUrl }) => (
   <div className="text-black w-9/12 flex mx-auto space-x-32">

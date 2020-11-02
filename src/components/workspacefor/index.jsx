@@ -1,8 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import EngineerCaricature from "../images/engineer.svg"
-import DesignerCaricature from "../images/designer.svg"
+import EngineerCaricature from "../../images/engineer.svg"
+import DesignerCaricature from "../../images/designer.svg"
 
 const WorkspaceFor = ({ sectionTitle }) => {
   return (

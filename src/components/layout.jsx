@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import IntegrationsSection from "./integrations"
-import WorkspaceFor from "./workspacefor"
+import Header from "./header/index"
+import IntegrationsSection from "./integrations/index"
+import WorkspaceFor from "./workspacefor/index"
 import "./layout.css"
 
 const Layout = ({ children }) => {

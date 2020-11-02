@@ -1,15 +1,18 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import Laptop from "../images/laptop.png"
-import DashboardDesign from "../images/dashboard-design-1-1@3x.png"
+import Logo from "../../images/logo.png"
+import Laptop from "../../images/laptop.png"
+import DashboardDesign from "../../images/dashboard-design.png"
 
 const Header = ({ siteTitle, headerDescription, owLogoUrl }) => {
   return (
     <header className="text-white px-12 h-screen pt-32 mb-24">
-      <div className="bg-white h-20 w-20 shadow-md rounded-full p-2">
-        <img className="w-16 h-16" src={owLogoUrl} alt="Oneworkspace" />
-      </div>
+      <img
+        className="h-20 w-20 rounded-full bg-none"
+        src={Logo}
+        alt="Oneworkspace"
+      />
       <div className="flex space-x-24">
         <div className="w-1/5">
           <div className="text-left">
