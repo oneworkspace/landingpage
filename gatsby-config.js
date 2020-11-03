@@ -19,7 +19,7 @@ module.exports = {
     getstartedDescription_p1: `We let you test our complete suite of features for free! Refer others to increase the duration of your free trial :)`,
     getstartedDescription_p2: `All data/documents are stored using bank-like security measures and are completely safe. We do not gather any unnecessary information from users.`,
     getstartedDescription_p3: `If you have any queries/suggestions, you can always send us an email at support@oneworkspace.app`,
-    getstartedCTAText: `Take me to OneWorkspace`,
+    getstartedCTAText: `SIGNUP FOR ALPHA`,
 
     socialLinks: {
       facebook: "https://www.facebook.com/oneworkspace",
@@ -48,6 +48,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `G-KLCVJPFXN4`,
+        // Puts tracking script in the head instead of the body
+        head: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

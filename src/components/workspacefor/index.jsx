@@ -3,15 +3,6 @@ import React from "react"
 
 import EngineerCaricature from "../../images/engineer.svg"
 import DesignerCaricature from "../../images/designer.svg"
-import Creator_1 from "../../images/creator_1.svg"
-import Creator_2 from "../../images/creator_2.svg"
-import Creator_3 from "../../images/creator_3.svg"
-import Creator_4 from "../../images/creator_4.svg"
-import Creator_5 from "../../images/creator_5.svg"
-import Creator_6 from "../../images/creator_6.svg"
-import Creator_7 from "../../images/creator_7.svg"
-import Creator_8 from "../../images/creator_8.svg"
-import Creator_9 from "../../images/creator_9.svg"
 
 import "./styles.css"
 
