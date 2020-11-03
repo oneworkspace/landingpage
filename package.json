@@ -38,7 +38,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy-windows": "gatsby build && copy C:\\Users\\adity\\Developer\\Oneworkspace\\landingpage\\src\\CNAME C:\\Users\\adity\\Developer\\Oneworkspace\\landingpage\\public && gh-pages -d public --branch master"
+    "deploy-windows": "gatsby build && copy C:\\Users\\adity\\Developer\\Oneworkspace\\landingpage\\src\\CNAME C:\\Users\\adity\\Developer\\Oneworkspace\\landingpage\\public && gh-pages -d public --branch deploy"
   },
   "repository": {
     "type": "git",
