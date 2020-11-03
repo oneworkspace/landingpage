@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),c=t.n(a),r=t("L12J"),o=t("vrFN");n.default=function(){return c.a.createElement(r.a,null,c.a.createElement(o.a,{title:"Oneworkspace"}))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-05afab9890582cb9e492.js.map
