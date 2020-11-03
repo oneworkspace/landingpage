@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="layout w-full bg-white">
+    <div className="layout  w-full bg-white">
       {children}
       <Header
         siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}

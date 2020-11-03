@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `OneWorkspace`,
     headerSecond: `OW is built for Freelancers and Teams!`,
-    headerDescription: `You can manage customers, projects and information with powerful and easy to use CRM, project management tool and docs. Collaboration with your teams is as easy as starting a workspace.`,
+    headerDescription: `Manage customers, projects and information with powerful and easy to use CRM, project management tool and docs. Collaboration with your teams is as easy as starting a workspace.`,
     primaryCTA: `Signup for Alpha`,
     currentOffer: `and get OneWorkspace free tire for a year.`,
 
