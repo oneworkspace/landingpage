@@ -2,60 +2,41 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Logo from "../../images/logo.png"
-import Laptop from "../../images/laptop.png"
-import DashboardDesign from "../../images/dashboard-design.png"
 
 import "./styles.css"
 
-const Header = ({ siteTitle, headerDescription }) => {
+const Header = ({
+  siteTitle,
+  headerSecond,
+  headerDescription,
+  currentOffer,
+  primaryCTA,
+}) => {
   return (
-
-    <header className="text-white px-12 h-screen pt-32 mb-24">
-      <img
-        className="h-20 w-20 rounded-full bg-none"
-        src={Logo}
-        alt="Oneworkspace"
-      />
-      <div className="flex space-x-24">
-        <div className="w-4/5">
-          <div className="text-left">
-            <h2 className="text-4xl font-light">{headerDescription}</h2>
-            <p>You can manage customers, projects and information with powerful and easy to use crm, project meneatement tool and docs. Collabration with your teams is as easy as starting a workspace.</p>
-            <button className="bg-primary px-6 py-2 mt-3 mb-1 rounded-full text-xs text-white font-light">
-              SIGNUP FOR ALPHA
-            </button>
-            <p className="text-xs">and get OneWorkspace free tire for a year.</p>
-          </div>
-        </div>
-        <div className="w-3/5">
-          <div className="relative">
-            <img
-              className="absolute top-0 left-0 object-contain"
-              style={{ width: "826px", height: "410px" }}
-              src={Laptop}
-              alt="Laptop"
-            />
-            <img
-              className="cursor-pointer absolute top-0 left-0 rounded-md"
-              style={{
-                width: "510px",
-                height: "318px",
-                marginLeft: "157px",
-                marginTop: "28px",
-              }}
-              src={DashboardDesign}
-              alt="Dashboard Design"
-            />
-          </div>
-        </div>
-      </div>
-    </header>
+    <section className="hero mb-24">
+      <section className="w-4/12">
+        <img className="h-48 w-48" src={Logo} alt={siteTitle} />
+        <h1 className="text-6xl text-white">{siteTitle}</h1>
+        <h2 className="text-white text-2xl">OW is built for Freelancers and Teams!</h2>
+        <p className="text-white text-sm">{headerDescription}</p>
+        <a href="https://forms.gle/nzzq9Vuvc51Kok3F9" target="_blank" rel="noopener noreferrer">
+          <button className="cta-button text-xl text-white py-4 px-8 mb-6 mt-12 uppercase">
+            Signup for Alpha
+          </button>
+        </a>
+        <p className="text-white text-xl">and get OneWorkspace free tire for a year.</p>
+      </section>
+      <section className="laptop w-8/12" />
+    </section>
   )
 }
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  headerSecond: PropTypes.string,
   headerDescription: PropTypes.string,
+  currentOffer: PropTypes.string,
+  primaryCTA: PropTypes.string,
 }
 
 Header.defaultProps = {

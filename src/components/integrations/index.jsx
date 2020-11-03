@@ -11,29 +11,24 @@ const IntegrationsSection = ({
   description_p2,
   description_p3,
 }) => (
-  <div className="text-black w-9/12 flex mx-auto space-x-32">
-    <div className="w-1/3 text-left">
-      <h3 className="text-primary text-3xl mt-4 mb-2">{sectionTitle}</h3>
-      <div className="space-y-4 text-sm text-gray-500">
+  <section className="text-black w-10/12 flex mx-auto justify-between">
+    <article className="w-5/12 text-left">
+      <h3 className="text-black font-medium text-4xl mt-4 mb-2">{sectionTitle}</h3>
+      <section className="space-y-4 text-gray-500">
         <p>{description_p1}</p>
         <p>{description_p2}</p>
         <p>{description_p3}</p>
-    
-        <div>
-          <a className="text-primary text-sm" href="/">
-            Learn more about us
-          </a>
-        </div>
-      </div>
-    </div>
-    <div className="w-1/2 text-left">
+      </section>
+    </article>
+    <section className="w-6/12 text-left">
       <img
         style={{ height: "490px", width: "490px" }}
         src={IntegrationsImage}
+        className="mx-auto"
         alt="ow integrations"
       />
-    </div>
-  </div>
+    </section>
+  </section>
 )
 
 IntegrationsSection.propTypes = {
