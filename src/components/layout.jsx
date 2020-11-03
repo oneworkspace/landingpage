@@ -30,7 +30,6 @@ const Layout = ({ children }) => {
           integrationsDescription_p1
           integrationsDescription_p2
           integrationsDescription_p3
-          integrationsDescription_p4
 
           getstartedTitle
           getstartedDescription_p1

@@ -2,15 +2,14 @@ module.exports = {
   siteMetadata: {
     title: `OneWorkspace`,
     owLogoUrl: `https://stage-admin-oneworkspace.netlify.app/oneworkspace.png`,
-    headerDescription: `Call it an end-to-end management utility, or a tailored CRM, OW makes your life easier in everyway possible!`,
+    headerDescription: `OW is built for Freelancers and Teams!`,
     primaryCTAText: `SIGNUP FOR ALPHA`,
     alphaUserOffer: `and get OneWorkspace free, for 3 yrs`,
 
     integrationsTitle: `Use all your favourite apps on the same platform!`,
-    integrationsDescription_p1: `Porta etiam dolor sit amet, consectetur adipiscing elit.`,
-    integrationsDescription_p2: `Consequat eu congue morbi sem augue amet. Id imperdiet diam quis tempor rhoncus, ipsum placerat aliquam massa. Luctus porttitor massa amet nunc, sollicitudin. Erat amet faucibus adipiscing ut sed massa convallis vitae.`,
-    integrationsDescription_p3: `Eu sit placerat nunc adipiscing. Laoreet amet commodo nunc, morbi urna ornare. Leo laoreet dignissim massa elementum nullam sem pellentesque feugiat in. Lectus dolor pharetra tortor viverra netus eget mi in in.`,
-    integrationsDescription_p4: `Quis consequat velit a vestibulum. Porta etiam odio sit at. At adipiscing posuere rhoncus non vivamus lobortis sed.`,
+    integrationsDescription_p1: `We have build integrations with all your fav apps.`,
+    integrationsDescription_p2: `Our focus is to make life as simple as possibe for developers and designers. All your frequest tools are connected with your workspace and project by free.`,
+    integrationsDescription_p3: `All this is shared in a workspace as long as you plan to collabrarate with others. Afte you close a workspace you can choose to move all the data back to your personal workspace.`,
 
     whoisonewforHeader: `WHO IS OneWorkspace for?`,
     engineerCaricature: `http://`,

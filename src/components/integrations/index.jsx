@@ -10,7 +10,6 @@ const IntegrationsSection = ({
   description_p1,
   description_p2,
   description_p3,
-  description_p4,
 }) => (
   <div className="text-black w-9/12 flex mx-auto space-x-32">
     <div className="w-1/3 text-left">
@@ -19,7 +18,7 @@ const IntegrationsSection = ({
         <p>{description_p1}</p>
         <p>{description_p2}</p>
         <p>{description_p3}</p>
-        <p>{description_p4}</p>
+    
         <div>
           <a className="text-primary text-sm" href="/">
             Learn more about us
@@ -42,7 +41,6 @@ IntegrationsSection.propTypes = {
   description_p1: PropTypes.string,
   description_p2: PropTypes.string,
   description_p3: PropTypes.string,
-  description_p4: PropTypes.string,
 }
 
 IntegrationsSection.defaultProps = {
@@ -50,7 +48,6 @@ IntegrationsSection.defaultProps = {
   description_p1: ``,
   description_p2: ``,
   description_p3: ``,
-  description_p4: ``,
 }
 
 export default IntegrationsSection

@@ -9,6 +9,7 @@ import "./styles.css"
 
 const Header = ({ siteTitle, headerDescription }) => {
   return (
+
     <header className="text-white px-12 h-screen pt-32 mb-24">
       <img
         className="h-20 w-20 rounded-full bg-none"
@@ -16,14 +17,14 @@ const Header = ({ siteTitle, headerDescription }) => {
         alt="Oneworkspace"
       />
       <div className="flex space-x-24">
-        <div className="w-1/5">
+        <div className="w-4/5">
           <div className="text-left">
-            <h1 className="text-5xl my-4 font-hairline">{siteTitle}</h1>
-            <p className="font-light">{headerDescription}</p>
+            <h2 className="text-4xl font-light">{headerDescription}</h2>
+            <p>You can manage customers, projects and information with powerful and easy to use crm, project meneatement tool and docs. Collabration with your teams is as easy as starting a workspace.</p>
             <button className="bg-primary px-6 py-2 mt-3 mb-1 rounded-full text-xs text-white font-light">
               SIGNUP FOR ALPHA
             </button>
-            <p className="text-xs">and get OneWorkspace free for, for 3 yrs</p>
+            <p className="text-xs">and get OneWorkspace free tire for a year.</p>
           </div>
         </div>
         <div className="w-3/5">
