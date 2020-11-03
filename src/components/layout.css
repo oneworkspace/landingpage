@@ -5,9 +5,3 @@
 @import "tailwindcss/utilities";
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-
-.layout {
-  background-image: url(../images/mask-group.svg);
-  background-repeat: no-repeat;
-  background-size: 75%;
-}

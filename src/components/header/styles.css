@@ -1,4 +1,7 @@
 .hero {
+    background-image: url(../../images/landing-waves.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100vh;
     display: flex;
     align-items: center;

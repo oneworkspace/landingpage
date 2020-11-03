@@ -56,12 +56,10 @@ const Layout = ({ children }) => {
   return (
     <div className="layout w-full bg-white">
       {children}
-      <div className="w-11/12 mx-auto">
-        <Header
-          siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
-          headerDescription={data.site.siteMetadata?.headerDescription}
-        />
-      </div>
+      <Header
+        siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
+        headerDescription={data.site.siteMetadata?.headerDescription}
+      />
       <IntegrationsSection
         sectionTitle={data.site.siteMetadata?.integrationsTitle}
         description_p1={data.site.siteMetadata?.integrationsDescription_p1}
