@@ -10,7 +10,7 @@ export default function Nav({ siteTitle }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="cta-button text-white py-2 px-4 uppercase">
+        <button className="border border-black rounded-full text-black py-2 px-4 uppercase">
           Login
         </button>
       </a>

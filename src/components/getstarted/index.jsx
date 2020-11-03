@@ -11,18 +11,19 @@ const GetStarted = ({
   ctaText,
 }) => {
   return (
-    <div className="getstarted w-full text-white my-20">
-      <div className="text-left pt-64 space-y-4 w-9/12 mx-auto">
-        <h4 className="text-3xl my-4 w-1/4">{sectionTitle}</h4>
-        <p className="font-light">{description_p1}</p>
-        <p className="font-light">{description_p2}</p>
-        <p className="font-light">{description_p3}</p>
+    <div className="container mx-auto mt-64">
+      <div className="text-left w-9/12">
+        <h4 className="text-4xl font-bold my-4 ow-color">{sectionTitle}</h4>
+        <p className="font-bold text-xl ow-color">{description_p1}</p>
+        <p className="font-bold text-xl ow-color">{description_p2}</p>
+        <p className="font-bold text-xl ow-color">{description_p3}</p>
         <div>
           <button className="bg-primary px-8 py-3 mt-6 mb-1 rounded-full  text-white">
             {ctaText}
           </button>
         </div>
       </div>
+      <div className="border-b-2 border-primary w-64 my-32 mx-auto" />
     </div>
   )
 }

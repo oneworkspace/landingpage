@@ -8,10 +8,10 @@ import LinkedIn from "../../images/linkedin.svg"
 
 const Footer = ({ recentBlog, socialLinks }) => {
   return (
-    <footer className="w-10/12 mx-auto flex justify-between mb-12 text-sm">
-      <div className="w-1/4">
+    <footer className="container mx-auto flex justify-between mb-12 text-sm">
+      <section className="w-1/4">
         <div className="uppercase pb-2 font-semibold">Company</div>
-        <div className="border-b-2 border-primary w-12 mb-4"></div>
+        <div className="border-b-2 border-primary w-12 mb-4" />
         <div className="mb-3">
           <a className="cursor-pointer uppercase" href="/">
             Contact
@@ -27,10 +27,10 @@ const Footer = ({ recentBlog, socialLinks }) => {
             Blog
           </a>
         </div>
-      </div>
-      <div className="w-2/4">
+      </section>
+      <section className="w-2/4">
         <div className="uppercase pb-2 text-sm font-semibold">Recent Blog</div>
-        <div className="border-b-2 border-primary w-12 mb-4"></div>
+        <div className="border-b-2 border-primary w-12 mb-4" />
         {recentBlog.map((_blogItem, _index) => {
           return (
             <div key={_index} className="text-left text-gray-600 mb-2">
@@ -44,7 +44,7 @@ const Footer = ({ recentBlog, socialLinks }) => {
             </div>
           )
         })}
-      </div>
+      </section>
       <div className="w-1/4">
         <div className="uppercase pb-2 text-sm font-semibold">Social Links</div>
         <div className="border-b-2 border-primary w-12 mb-4"></div>

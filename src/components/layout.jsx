@@ -16,6 +16,7 @@ import GetStarted from "./getstarted/index"
 import Footer from "./footer/index"
 
 import "./layout.css"
+import Stages from "./stages"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -60,6 +61,7 @@ const Layout = ({ children }) => {
         siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
         headerDescription={data.site.siteMetadata?.headerDescription}
       />
+      <Stages />
       <IntegrationsSection
         sectionTitle={data.site.siteMetadata?.integrationsTitle}
         description_p1={data.site.siteMetadata?.integrationsDescription_p1}

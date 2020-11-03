@@ -4,12 +4,11 @@ import React from "react"
 import "./styles.css"
 import Nav from "../nav"
 
+import Main from '../../images/main.png'
+
 const Header = ({
   siteTitle,
-  headerSecond,
   headerDescription,
-  currentOffer,
-  primaryCTA,
 }) => {
   return (
     <section className="hero text-center p-6 container mx-auto">
@@ -18,7 +17,7 @@ const Header = ({
       <h2 className="text-2xl font-bold text-purple-700">
         Built for Freelancers and Teams
       </h2>
-      <p className="text text-gray-600 font-medium my-4 w-8/12 mx-auto">
+      <p className="text-gray-600 font-medium my-4 w-8/12 mx-auto">
         {headerDescription}
       </p>
       <a
@@ -30,9 +29,10 @@ const Header = ({
           Signup for Alpha
         </button>
       </a>
-      <p className="text-gray-600 text-sm -mt-4">
+      <p className="text-lg font-medium">
         and get OneWorkspace free for a year
       </p>
+      <img src={Main} alt="Landing Hero" className="w-full mt-16 shadow-sm" />
     </section>
   )
 }

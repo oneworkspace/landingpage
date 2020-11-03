@@ -11,13 +11,13 @@ const IntegrationsSection = ({
   description_p2,
   description_p3,
 }) => (
-  <section className="text-black w-10/12 flex mx-auto justify-between">
+  <section className="container my-64 flex items-center mx-auto justify-between">
     <article className="w-5/12 text-left">
-      <h3 className="text-black font-medium text-4xl mt-4 mb-2">{sectionTitle}</h3>
-      <section className="space-y-4 text-gray-500">
-        <p>{description_p1}</p>
-        <p>{description_p2}</p>
-        <p>{description_p3}</p>
+      <h3 className="black font-bold text-4xl mt-4 mb-2">{sectionTitle}</h3>
+      <section className="space-y-4 gray">
+        <p className="gray font-semibold">{description_p1}</p>
+        <p className="gray font-semibold">{description_p2}</p>
+        <p className="gray font-semibold">{description_p3}</p>
       </section>
     </article>
     <section className="w-6/12 text-left">

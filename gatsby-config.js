@@ -11,7 +11,7 @@ module.exports = {
     integrationsDescription_p2: `Our focus is to make life as simple as possible for developers and designers. All your request tools are connected with your workspace and project by free.`,
     integrationsDescription_p3: `All this is shared in a workspace as long as you plan to collaborate with others. After you close a workspace you can choose to move all the data back to your personal workspace.`,
 
-    whoisonewforHeader: `WHO IS OneWorkspace for?`,
+    whoisonewforHeader: `Who is OneWorkspace for?`,
     engineerCaricature: `http://`,
     designerCaricature: `http://`,
 
