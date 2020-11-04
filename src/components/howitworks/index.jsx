@@ -1,7 +1,13 @@
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import "./styles.css"
-import Auth from "../../images/auth.png"
+import First from "../../images/first.png"
+import Second from "../../images/second.png"
+import Third from "../../images/third.png"
+import Fourth from "../../images/fourth.png"
+import Fifth from "../../images/fifth.png"
+
+const stageIllustrations = [First, Second, Third, Fourth, Fifth]
 
 const HowItWorks = ({ sectionTitle, stages }) => {
   const [stage, setStage] = useState(0)
@@ -36,7 +42,11 @@ const HowItWorks = ({ sectionTitle, stages }) => {
               </div>
             ))}
           </section>
-          <img src={Auth} alt="Stages" className="w-8/12" />
+          <img
+            src={stageIllustrations[stage]}
+            alt="Stages"
+            className="w-8/12 border-4 border-t-8 border-ow rounded-2xl"
+          />
         </section>
       </section>
     </>

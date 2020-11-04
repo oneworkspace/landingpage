@@ -34,15 +34,15 @@ module.exports = {
         image: "",
       },
       {
-        name: "Create Project",
-        image: "",
-      },
-      {
         name: "Invite People",
         image: "",
       },
       {
-        name: "Connect with your favorite Tools (Github, AdobeXD etc.)",
+        name: "Create Project",
+        image: "",
+      },
+      {
+        name: "Connect with your favorite Tools",
         image: "",
       },
       {

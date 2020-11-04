@@ -1,13 +1,4 @@
-
-.laptop {
-    background-image: url(../../images/laptop.png);
-    height: 80%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
 .cta-button {
-    border-radius: 50px;
-    background-color: #655d8e;
+  border-radius: 50px;
+  background-color: #655d8e;
 }
