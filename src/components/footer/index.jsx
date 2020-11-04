@@ -8,7 +8,7 @@ import LinkedIn from "../../images/linkedin.svg"
 
 const Footer = ({ recentBlog, socialLinks }) => {
   return (
-    <footer className="container mx-auto flex justify-between mb-12 text-sm">
+    <footer className="container mx-auto flex justify-between mb-12 text-sm border-t pt-6 px-4">
       <section className="w-1/4">
         <div className="uppercase pb-2 font-semibold">Company</div>
         <div className="border-b-2 border-primary w-12 mb-4" />

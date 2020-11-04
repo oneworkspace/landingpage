@@ -28,6 +28,29 @@ module.exports = {
       linkedin: "https://www.linkedin.com/oneworkspace",
     },
 
+    howitWorksStages: [
+      {
+        name: "Start a workspace",
+        image: "",
+      },
+      {
+        name: "Create Project",
+        image: "",
+      },
+      {
+        name: "Invite People",
+        image: "",
+      },
+      {
+        name: "Connect with your favorite Tools (Github, AbodeXD etc.)",
+        image: "",
+      },
+      {
+        name: "Start Managing Wikis",
+        image: "",
+      },
+    ],
+
     recentBlog: [
       {
         title: "UX Design",

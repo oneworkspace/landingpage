@@ -12,11 +12,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header/index"
 import IntegrationsSection from "./integrations/index"
 import WorkspaceFor from "./workspacefor/index"
-import GetStarted from "./getstarted/index"
+// import GetStarted from "./getstarted/index"
 import Footer from "./footer/index"
 
 import "./layout.css"
-import Stages from "./stages"
+import HowItWorks from "./howitworks"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -49,6 +49,11 @@ const Layout = ({ children }) => {
             title
             description
           }
+
+          howitWorksStages {
+            name
+            image
+          }
         }
       }
     }
@@ -61,7 +66,10 @@ const Layout = ({ children }) => {
         siteTitle={data.site.siteMetadata?.title || `OneWorkspace`}
         headerDescription={data.site.siteMetadata?.headerDescription}
       />
-      <Stages />
+      <HowItWorks
+        sectionTitle="How It Works"
+        stages={data.site.siteMetadata?.howitWorksStages}
+      />
       <IntegrationsSection
         sectionTitle={data.site.siteMetadata?.integrationsTitle}
         description_p1={data.site.siteMetadata?.integrationsDescription_p1}
@@ -70,13 +78,13 @@ const Layout = ({ children }) => {
         description_p4={data.site.siteMetadata?.integrationsDescription_p4}
       />
       <WorkspaceFor sectionTitle={data.site.siteMetadata?.whoisonewforHeader} />
-      <GetStarted
+      {/* <GetStarted
         sectionTitle={data.site.siteMetadata?.getstartedTitle}
         description_p1={data.site.siteMetadata?.getstartedDescription_p1}
         description_p2={data.site.siteMetadata?.getstartedDescription_p2}
         description_p3={data.site.siteMetadata?.getstartedDescription_p3}
         ctaText={data.site.siteMetadata?.getstartedCTAText}
-      />
+      /> */}
       <Footer
         recentBlog={data.site.siteMetadata?.recentBlog}
         socialLinks={data.site.siteMetadata?.socialLinks}
