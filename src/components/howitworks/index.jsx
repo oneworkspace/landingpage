@@ -7,9 +7,8 @@ import Third from "../../images/third.png"
 import Fourth from "../../images/fourth.png"
 import Fifth from "../../images/fifth.png"
 
-const stageIllustrations = [First, Second, Third, Fourth, Fifth]
-
 const HowItWorks = ({ sectionTitle, stages }) => {
+  const stageIllustrations = [First, Second, Third, Fourth, Fifth]
   const [stage, setStage] = useState(0)
   return (
     <>
