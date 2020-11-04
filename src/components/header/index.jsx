@@ -30,7 +30,7 @@ const Header = ({
         </button>
       </a>
       <p className="text-lg font-medium">
-        and get OneWorkspace free for a year
+        get free access for a year and incredible offers as early users
       </p>
       <img src={Main} alt="Landing Hero" className="w-full mt-16 shadow-sm" />
     </section>

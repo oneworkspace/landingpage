@@ -4,7 +4,7 @@ module.exports = {
     headerSecond: `OW is built for Freelancers and Teams!`,
     headerDescription: `Manage customers, projects and information with powerful and easy to use CRM, project management tool and docs. Collaboration with your teams is as easy as starting a workspace.`,
     primaryCTA: `Signup for Alpha`,
-    currentOffer: `and get OneWorkspace free tire for a year.`,
+    currentOffer: `get free access for a year and incredible offers as early users`,
 
     integrationsTitle: `Use all your favourite apps on the same platform!`,
     integrationsDescription_p1: `We have build integrations with all your fav apps.`,
@@ -22,10 +22,10 @@ module.exports = {
     getstartedCTAText: `SIGNUP FOR ALPHA`,
 
     socialLinks: {
-      facebook: "https://www.facebook.com/oneworkspace",
+      facebook: "https://www.facebook.com/1workspace",
       twitter: "https://twitter.com/oneworkspace",
       instagram: "https://instagram.com/oneworkspace",
-      linkedin: "https://www.linkedin.com/oneworkspace",
+      linkedin: "https://www.linkedin.com/company/oneworkspace",
     },
 
     howitWorksStages: [
@@ -42,7 +42,7 @@ module.exports = {
         image: "",
       },
       {
-        name: "Connect with your favorite Tools (Github, AbodeXD etc.)",
+        name: "Connect with your favorite Tools (Github, AdobeXD etc.)",
         image: "",
       },
       {

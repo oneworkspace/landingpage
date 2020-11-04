@@ -7,12 +7,12 @@ const HowItWorks = ({ sectionTitle, stages }) => {
   const [stage, setStage] = useState(0)
   return (
     <>
-      <div className="container mx-auto">
+      <section className="container mx-auto">
         <h3 className="black font-bold text-4xl mt-4 mb-2 mt-16 text-primary">
           {sectionTitle}
         </h3>
         <section className="flex container mx-auto items-center">
-          <section className="flex flex-col w-3/12 mr-16 relative text-sm">
+          <section className="flex flex-col w-4/12 mr-16 relative text-sm">
             <div className="connector-line" />
             {stages.map((_stage, _index) => (
               <div key={_index} className="flex items-center">
@@ -24,7 +24,7 @@ const HowItWorks = ({ sectionTitle, stages }) => {
                   }`}
                 />
                 <span
-                  className={`capitalize cursor-pointer text-center rounded-full w-3/4 my-4 px-4 py-2 ${
+                  className={`capitalize cursor-pointer rounded-full w-3/4 my-4 px-4 py-4 ${
                     _index === stage
                       ? "stage-selected text-white font-bold"
                       : "stage-not-highlighted"
@@ -36,9 +36,9 @@ const HowItWorks = ({ sectionTitle, stages }) => {
               </div>
             ))}
           </section>
-          <img src={Auth} alt="Stages" className="w-10/12" />
+          <img src={Auth} alt="Stages" className="w-8/12" />
         </section>
-      </div>
+      </section>
     </>
   )
 }

@@ -18,12 +18,12 @@ const Footer = ({ recentBlog, socialLinks }) => {
           </a>
         </div>
         <div className="mb-3">
-          <a className="cursor-pointer uppercase" href="/">
+          <a className="cursor-pointer uppercase" href="https://medium.com/@oneworkspace">
             Press
           </a>
         </div>
         <div className="mb-3">
-          <a className="cursor-pointer uppercase" href="/">
+          <a className="cursor-pointer uppercase" href="https://medium.com/@oneworkspace">
             Blog
           </a>
         </div>
