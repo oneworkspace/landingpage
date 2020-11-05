@@ -13,7 +13,7 @@ const Footer = ({ recentBlog, socialLinks }) => {
         <div className="uppercase pb-2 font-semibold">Company</div>
         <div className="border-b-2 border-primary w-12 mb-4" />
         <div className="mb-3">
-          <a className="cursor-pointer uppercase" href="/">
+          <a className="cursor-pointer uppercase" href="https://forms.gle/FPGWrjj596PrTDsr7">
             Contact
           </a>
         </div>
