@@ -4,16 +4,13 @@ import React from "react"
 import "./styles.css"
 import Nav from "../nav"
 
-import Main from '../../images/main.png'
+import Main from "../../images/main.png"
 
-const Header = ({
-  siteTitle,
-  headerDescription,
-}) => {
+const Header = ({ siteTitle, headerDescription }) => {
   return (
     <section className="hero text-center p-6 container mx-auto">
       <Nav />
-      <h1 className="text-6xl font-bold">{siteTitle}</h1>
+      <h1 className="text-6xl font-bold raleway">{siteTitle}</h1>
       <h2 className="text-2xl font-bold text-purple-700">
         Built for Freelancers and Teams
       </h2>
@@ -32,7 +29,11 @@ const Header = ({
       <p className="text-lg font-medium">
         get free access for a year and incredible offers as early users
       </p>
-      <img src={Main} alt="Landing Hero" className="w-full mt-16 shadow-sm" />
+      <img
+        src={Main}
+        alt="Landing Hero"
+        className="w-full mt-16 border-4 border-t-8 shadow-sm purple-border rounded-2xl"
+      />
     </section>
   )
 }
